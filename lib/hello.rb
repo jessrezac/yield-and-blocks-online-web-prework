@@ -5,7 +5,7 @@ def hello_t(array)
     yield array[1]
     i = i + 1
   end
-  
+
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
@@ -15,4 +15,3 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
 end
 
 # call your method here!
-
